@@ -24,7 +24,7 @@ app.use(express.static("public"))
 app.use(cookieParser());
 
 
-// route import 
+// All route import 
 import userRouter from './routes/user.routes.js'
 import tweetRouter from './routes/tweet.routes.js'
 import playlistRouter from "./routes/playlist.routes.js"
