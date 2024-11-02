@@ -1,6 +1,8 @@
 import mongoose from "mongoose"
 import {DB_NAME} from "../constants.js"
 
+// for git
+
 const ConnectDB = async()=>{
     try {
         const mongoDb = await mongoose.connect(`${process.env.MONGODB_URI}/${DB_NAME}`);
